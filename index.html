@@ -11,7 +11,7 @@
 <body>
     <nav>
         <div class="container">
-            <a href="#" class="logo">Ayen</a>
+            <a href="#" class="logo">Kline</a>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -24,8 +24,14 @@
         <div class="container">
             <div class="hero-content">
                 <h1><span class="highlight">Kline</span></h1>
-                <p>Computer science student passionate about software engineering, specializing in data science and
-                    Backend Development.
+                <p>
+                    Computer Science student and Full Stack Developer with hands-on experience in
+                    <strong>Express</strong>, <strong>TypeScript</strong>,
+                    <strong>React</strong>, and <strong>PostgreSQL</strong>. I’ve developed multiple full-stack
+                    projects, handling both frontend and
+                    backend development. Skilled in performance optimization techniques such as caching and familiar
+                    with software engineering best practices. Additionally, I have a bit background in data science,
+                    which enhances my ability to build data-driven applications and optimize system performance.
                 </p>
                 <a href="#projects" class="cta-button">View Work</a>
             </div>
@@ -34,32 +40,21 @@
 
     <section id="about">
         <div class="container">
-            <h2 class="section-title">About</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>I'm currently a <strong>Computer Science student<strong> actively developing skills that extend
-                                beyond academic coursework. In addition to my studies, I dedicate my time learning
-                                Backend development and Data Science, with a focus on applying theoretical knowledge to
-                                practical, real-world projects.</p>
-                </div>
-                <div class="skills-grid">
-                    <div class="skill-item">
-                        <h4>Frontend</h4>
-                        <p>HTML, CSS, Javascript, React TailwindCSS</p>
-                    </div>
-                    <div class="skill-item">
-                        <h4>Backend</h4>
-                        <p>NodeJS, Express, Javascript, Typescript, MongoDB, MySQL, Redis, and PostgreSQL</p>
-                    </div>
-                    <div class="skill-item">
-                        <h4>Data Science</h4>
-                        <p>Currently Self-Studying</p>
-                    </div>
-                    <div class="skill-item">
-                        <h4>AI Engineering</h4>
-                        <p>Currently Self-Studying</p>
-                    </div>
-                </div>
+            <h2 class="section-title">Tech Stack</h2>
+
+            <h2 class="stack-title">Frontend</h2>
+            <div class="tech-stack">
+                <img src="https://skillicons.dev/icons?i=js,html,css,react,tailwind" alt="Front-End" />
+            </div>
+
+            <h2 class="stack-title">Backend</h2>
+            <div class="tech-stack">
+                <img src="https://skillicons.dev/icons?i=nodejs,mongodb,expressjs,ts,postgres,redis" alt="Back-End">
+            </div>
+
+            <h2 class="stack-title">Tools</h2>
+            <div class="tech-stack">
+                <img src="https://skillicons.dev/icons?i=github,git,vscode,postman" alt="Tools">
             </div>
         </div>
     </section>
@@ -69,12 +64,35 @@
             <h2 class="section-title">Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
+                    <h3>Sentinel</h3>
+                    <p>Developed a full-stack study platform using React, Typescript and Firebase, implementing
+                        authentication,
+                        database updates, and an express backend to integrate LLM and Gemini APIs for personalized
+                        learning insights</p>
+                    <p>Utilized D3.js to diplay real-time progress metrics</p>
+                    <div class="project-sample">
+                        <img src="./images/Sentinel.png" alt="">
+                    </div>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Express.js</span>
+                        <span class="tech-tag">Typescript</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Gemini</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Firebase</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Aiyennn/Sentinel" class="project-link">GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
                     <h3>CoView (In Progress)</h3>
-                    <p>An application that evaluates companies by analyzing their financial statements available via
-                        public API. Powered by Gemini, it simplifies complex financial data, making it easy for everyone
-                        to understand</p>
-                    <p>This project is currently in development. Github repository is not yet available but will be
-                        published in the near future.</p>
+                    <p>Developed a financial statement summarization tool using React that leverages LLMs for
+                        intelligent text
+                        summarization. Integrated and processed data from external financial APIs before feeding
+                        structured prompts to gemini for analysis</p>
+                    <p>Built the backend using Node.js, Express, and MongoDB, implementing authentication and caching
+                        mechanisms with Redis to optimize performance and reduce API latency</p>
                     <div class="project-sample">
                         <img src="./images/CoView.png" alt="">
                     </div>

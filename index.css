@@ -91,7 +91,7 @@ nav .container {
 
 .hero-content {
   z-index: 2;
-  max-width: 600px;
+  max-width: 800px;
 }
 
 .hero h1 {
@@ -141,53 +141,39 @@ section {
 .section-title {
   font-size: 2.5rem;
   font-weight: 300;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.stack-title {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 1%;
   text-align: center;
   color: #ffffff;
 }
 
 /* About Section ------------------------------------- */
-.about-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
+
+.tech-stack {
+  width: 100%;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
+
+.tech-stack img {
+  width:100%;
+  margin-bottom: 2%;
+  max-height: 70px;
+}
+
 
 .about-text p {
   margin-bottom: 20px;
   color: #b0b0b0;
   font-size: 1.1rem;
-}
-
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-}
-
-.skill-item {
-  background: rgba(64, 224, 208, 0.1);
-  padding: 20px;
-  border-radius: 8px;
-  border: 1px solid rgba(64, 224, 208, 0.2);
-  transition: all 0.3s ease;
-}
-
-.skill-item:hover {
-  background: rgba(64, 224, 208, 0.15);
-  transform: translateY(-5px);
-}
-
-.skill-item h4 {
-  color: #40e0d0;
-  margin-bottom: 10px;
-  font-size: 1rem;
-}
-
-.skill-item p {
-  font-size: 0.85rem;
-  color: #888;
 }
 
 /* Projects Section --------------------------- */
@@ -199,6 +185,9 @@ section {
 }
 
 .project-card {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
   background: rgba(255, 255, 255, 0.05);
   padding: 30px;
   border-radius: 12px;
